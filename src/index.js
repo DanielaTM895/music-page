@@ -1,9 +1,16 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { App } from "./App";
+import * as bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 let newServiceWorker;
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker
-      .register("service-worker.js",{scope:"music-page"})
+      .register("service-worker.js", { scope: "music-page" })
       .then((registerEvent) => {
         registerEvent.addEventListener("updatefound", () => {
           newServiceWorker = registerEvent.installing;
@@ -39,12 +46,5 @@ launchUpdate.addEventListener("click", () => {
   });
   window.reload();
 });
-
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import { App } from "./App";
-import * as bootstrap from "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
