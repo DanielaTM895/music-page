@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Music Page",
+  "name": "Music Page App",
+  "description": "Aplicacion que ayuda a encontrar informacion sobre un artista y la letra de una de sus canciones.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#dffaf4",
+  "background_color": "#f1ece7"
 }

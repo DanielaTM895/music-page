@@ -1,0 +1,15 @@
+.artistGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 40px;
+  padding: 40px;
+}
+
+.tam {
+  width: 18rem;
+}
+
+.artistCard {
+  list-style: none;
+  padding: auto;
+}
