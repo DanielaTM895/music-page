@@ -11,8 +11,8 @@ export function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/artist" element={<ArtistDetails />} />
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/music-page/artist" element={<ArtistDetails />} />
+          <Route path="/music-page" element={<LandingPage />} />
         </Routes>
       </main>
       <Footer />;
