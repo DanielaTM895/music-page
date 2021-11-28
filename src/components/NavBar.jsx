@@ -53,12 +53,12 @@ export function NavBar() {
                 aria-labelledby="navbarScrollingDropdown"
               >
                 <li>
-                  <Link className="dropdown-item" to="/albums">
+                  <Link className="dropdown-item" to="/music-page/albums">
                     Albums
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/eps">
+                  <Link className="dropdown-item" to="/music-page/eps">
                     EP's
                   </Link>
                 </li>
@@ -66,14 +66,14 @@ export function NavBar() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/singles">
+                  <Link className="dropdown-item" to="/music-page/singles">
                     Sencillos
                   </Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link disabled" to="discs">
+              <Link className="nav-link disabled" to="/music-page/discs">
                 Discografias
               </Link>
             </li>

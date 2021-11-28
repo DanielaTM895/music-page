@@ -15,7 +15,7 @@ export default function Search() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    history("/artist/?artist=" + artistText + "&song=" + songText);
+    history("/music-page/artist/?artist=" + artistText + "&song=" + songText);
   };
 
   useEffect(() => {

@@ -50,7 +50,7 @@ export default function ArtistComponent() {
               <div className="col">
                 <div className={`card ${styles.tam} border-dark mb-3`}>
                   <img
-                    src="https://www.theaudiodb.com/images/media/artist/thumb/vifn4f1617650128.jpg"
+                    src="https://www.theaudiodb.com/images/media/artist/thumb/vpuxqp1550161410.jpg"
                     alt="Foto"
                     className="card-img-top img-fluid"
                   />
@@ -85,7 +85,7 @@ export default function ArtistComponent() {
               <div className="col">
                 <div className={`card ${styles.tam} border-dark mb-3`}>
                   <img
-                    src="https://www.theaudiodb.com/images/media/artist/thumb/vifn4f1617650128.jpg"
+                    src="https://www.theaudiodb.com/images/media/artist/thumb/xswsqy1589552695.jpg"
                     alt="Foto"
                     className="card-img-top img-fluid"
                   />
